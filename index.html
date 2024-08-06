@@ -8,6 +8,13 @@
   <meta content="Discover innovative B2B solutions with Pangea Global Indonesia. We specialize in delivering tailored business strategies, fostering growth, and driving success through strategic partnerships. Connect with us to explore opportunities and enhance your business operations." name="description">
   <meta content="Pangea Global Indonesia, B2B solutions, business strategies, strategic partnerships, business growth, tailored business solutions, business consulting, partnership opportunities, business development, Indonesia B2B services" name="keywords">
 
+  <!-- Open Graph Meta Tags (untuk media sosial) -->
+  <meta property="og:title" content="Pangea Global Indonesia">
+  <meta property="og:description" content="Discover innovative B2B solutions with Pangea Global Indonesia. We specialize in delivering tailored business strategies, fostering growth, and driving success through strategic partnerships. Connect with us to explore opportunities and enhance your business operations.">
+  <meta property="og:image" content="https://pangea.co.id/assets/img/pangea/icon pangea.png">
+  <meta property="og:url" content="https://pangea.co.id">
+  <meta property="og:type" content="website">
+
   <!-- Favicons -->
   <link href="assets/img/pangea/icon pangea.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -471,8 +478,8 @@
               <!-- <i class="bi bi-easel icon"></i> -->
               <img src="assets/img/pangea/why-with-us/icon-why-work-with-us-3.svg" style="width: 72px; height: fit-content;" class="me-3" alt="">
               <div>
-                <h3>Two -way communications</h3>
-                <p>We are willing to listen to Brand’s original idea to be preserved and transferred to the local market . Our team will work hand in hand to match business strategy together.</p>
+                <h3>Two-way communications</h3>
+                <p>We are willing to listen to Brand’s original idea to be preserved and transferred to the local market. Our team will work hand in hand to match business strategy together.</p>
                 <!-- <a href="#" class="read-more stretched-link">Learn More <i class="bi bi-arrow-right"></i></a> -->
               </div>
             </div>
@@ -984,7 +991,7 @@
                 </p>
                 <div class="profile mt-auto">
                   <img src="assets/img/pangea/exclusive-brand-partner/alzip.png" class="testimonial-img" alt="">
-                  <h3>Alzimat</h3>
+                  <h3>Alzipmat</h3>
                   <h4>Partner</h4>
                 </div>
               </div>
@@ -1201,14 +1208,7 @@
     </div>
 
     <div class="container copyright text-center mt-4">
-      <p>© &nbsp;<span>Copyright</span>&nbsp<strong class="px-1 sitename">Pangea Global Indonesia</strong><span>All Rights Reserved</span></p>
-      <div class="credits d-none">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
+      <p>Copyright ©<span id="year"></span><strong class="sitename">&nbsp;Pangea Global Indonesia</strong></p>
     </div>
 
   </footer>
@@ -1229,6 +1229,9 @@
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
 
+  <script>
+    document.getElementById('year').innerHTML = new Date().getFullYear();
+  </script>
 </body>
 
 </html>
